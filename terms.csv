@@ -1,0 +1,188 @@
+차렷,chalyeos,attention,0
+경례,gyeonglye,bow,0
+준비,junbi,ready,0
+시작,sijag,start,0
+바로,balo,return to ready,0
+그만,geuman,stop,0
+해산,haesan,dismiss,0
+헤쳐,hechyeo,break,1
+틀,teul,pattern,1
+도장,dojang,training hall,0
+도복,dobog,uniform,0
+띠,tti,belt,0
+기합,gihab,shout,0
+서기,seogi,stance,0
+막기,maggi,block,0
+지르기,jileugi,punch,0
+차기,chagi,kick,0
+때리기,ttaeligi,strike,1
+틀기,teulgi,thrust,3
+높은데,nop-eunde,high-section,0
+가운데,gaunde,middle-section,0
+낮은데,naj-eunde,low-section,0
+바로,balo,obverse,0
+반대,bandae,reverse,0
+안으로,an-eulo,inwards,2
+밖으로,bakk-eulo,outwards,2
+올려,ollyeo,upwards,5
+내려,naelyeo,downwads,5
+안,an,inner,0
+바깥,bakkat,outer,0
+앞,ap,front,0
+옆,yeop,side,3
+뒤,dwi,back,4
+뛰며,ttwimyeo,flying,7
+뛰기,ttwigi,jumping,7
+차렷 서기,chalyeos seogi,attention stance,0
+준비 서기,junbi seogi,ready stance,0
+나란히 서기,nalanhi seogi,parallel stance,0
+나란히 준비 서기,nalanhi junbi seogi,parallel ready stance,0
+걷는 서기,geodneun seogi,walking stance,0
+걷는 차렷 서기,geodneun chalyeos seogi,walking ready stance,0
+앉는 서기,anjneun seogi,sitting stance,0
+니은자 서기,nieunja seogi,L-stance,1
+모아 서기,moa seogi,closed stance,4
+모아 준비 서기,moa junbi seogi,closed ready stance,4
+구부려 서기,gubulyeo seogi,bending stance,4
+구부려 준비 서기,gubulyeo junbi seogi,bending ready stance,4
+고정 서기,gojeong seogi,fixed stance,4
+수직 서기,sujig seogi,vertical stance,4
+교차 서기,gyocha seogi,x stance,5
+뒷굽이 서기,dwisgub-i seogi,rear foot stance,6
+나추어 서기,nachueo seogi,low stance,6
+주먹,jumeog,fist,1
+앞주먹,apjumeog,forefist,1
+등주먹,deungjumeog,back-fist,2
+옆주먹,yeopjumeog,side-fist,6
+손칼,sonkal,knife-hand,1
+손끝,sonkkeut,fingertips,3
+손칼등,sonkaldeung,reverse knife-hand,4
+손바닥,sonbadag,palm,4
+반달 손,bandal son,arc hand,6
+팔목,palmog,forearm,0
+안팔목,anpalmog,inner forearm,0
+바깥팔목,bakkatpalmog,outer forearm,0
+팔굽,palgub,elbow,5
+앞 굽치,ap gubchi,ball of foot,1
+발칼,balkal,foot sword,3
+뒤 굽치,dwi gubchi,back sole,4
+뒷 축,dwis chug,back heel,5
+무릎,muleup,knee,5
+머리,meoli,head,5
+허리,heoli,waist,4
+바로 지르기,balo jileugi,obverse punch,0
+반대 지르기,bandae jileugi,reverse punch,0
+바로 가운데 지르기,balo gaunde jileugi,obverse middle punch,2
+바로 높은데 지르기,balo nop-eunde jileugi,obverse high punch,2
+반대 가운데 지르기,bandae gaunde jileugi,reverse middle punch,2
+반대 높은데 지르기,bandae nop-eunde jileugi,reverse high punch,2
+두 지르기,du jileugi,double punch,1
+옆 지르기,yeop jileugi,side punch,4
+세워 찌르기,sewo jjileugi,vertical punch,5
+쌍 세워 찌르기,ssang sewo jjileugi,twin vertical punch,5
+뒤집은 지르기,dwijib-eun jileugi,upset punch,5
+쌍 뒤집은 지르기,ssang dwijib-eun jileugi,twin upset punch,5
+돌려 지르기,dollyeo jileugi,turning punch,6
+올려 지르기,ollyeo jileugi,upwards punch,8
+바깥팔목 막기,bakkatpalmog maggi,outer forearm block,0
+바깥팔목 낮은데 막기,bakkatpalmog naj-eunde maggi,outer forearm low block,1
+안팔목 막기,anpalmog maggi,inner forearm block,0
+안팔목 가운데 막기,anpalmog gaunde maggi,inner forearm middle block,1
+안팔목 높은데 막기,anpalmog nop-eunde maggi,inner forearm high block,2
+바깥팔목 안으로 막기,bakkatpalmog an-eulo maggi,outer forearm inward block,2
+바깥팔목 높은데 안으로 막기,bakkatpalmog nop-eunde an-eulo maggi,outer forearm high inward block,3
+바깥팔목 가운데 안으로 막기,bakkatpalmog gaunde an-eulo maggi,outer forearm middle inward block,3
+바깥팔목 높은데 막기,bakkatpalmog nop-eunde maggi,outer forearm high block,3
+바깥팔목 가운데 막기,bakkatpalmog gaunde maggi,outer forearm middle block,3
+바깥팔목 밖으로 막기,bakkatpalmog bakk-eulo maggi,outer forearm outward block,3
+바깥팔목 높은데 밖으로 막기,bakkatpalmog nop-eunde bakk-eulo maggi,outer forearm high outward block,3
+바깥팔목 가운데 밖으로 막기,bakkatpalmog gaunde bakk-eulo maggi,outer forearm middle outward block,3
+대비 막기,daebi maggi,guarding block,1
+팔목 대비 막기,palmog daebi maggi,forearm guarding block,1
+손칼 대비 막기,sonkal daebi maggi,knife-hand guarding block,2
+손칼 낮은데 대비 막기,sonkal naj-eunde daebi maggi,knife-hand low guarding block,7
+치켜 막기,chikyeo maggi,rising block,1
+팔목 치켜 막기,palmog chikyeo maggi,forearm rising block,1
+손칼 치켜 막기,sonkal chikyeo maggi,knife-hand rising block,5
+교차주먹 치켜 막기,gyochajumeog chikyeo maggi,x-fist rising block,6
+쌍 팔목 막기,ssang palmog maggi,twin forearm block,2
+쌍 바깥팔목 막기,ssang bakkatpalmog maggi,twin outer forearm block,2
+쌍 손칼 막기,ssang sonkal maggi,twin knife-hand block,5
+손칼등 막기,sonkaldeung maggi,reverse knife-hand block,6
+손칼등 밖으로 막기,sonkaldeung bakk-eulo maggi,reverse knife-hand outward block,6
+헤쳐 막기,hechyeo maggi,wedging block,3
+바깥팔목 헤쳐 막기,bakkatpalmog hechyeo maggi,outer forearm wedging block,3
+손칼 막기,sonkal maggi,knife-hand block,3
+손칼 밖으로 막기,sonkal bakk-eulo maggi,knife-hand outward block,3
+돌려 막기,dollyeo maggi,circular block,4
+안팔목 돌려 막기,anpalmog dollyeo maggi,inner forearm circular block,4
+골초 막기,golcho maggi,hooking block,5
+손바닥 골초 막기,sonbadag golcho maggi,palm hooking block,5
+바로 골초 막기,balo golcho maggi,obverse hooking block,5
+반대 골초 막기,bandae golcho maggi,reverse hooking block,5
+두 막기,du maggi,double block,5
+두팔목 막기,dupalmog maggi,double forearm block,5
+두팔목 밀어 막기,dupalmog mil-eo maggi,double forearm pushing block,7
+허리 막기,heoli maggi,waist block,4
+바깥팔목 허리 막기,bakkatpalmog heoli maggi,outer forearm waist block,4
+안으로 허리 막기,an-eulo heoli maggi,inward waist block,6
+손바닥 허리 막기,sonbadag heoli mag,palm waist block,6
+몸쳐 막기,momchyeo maggi,checking block,6
+쌍손 팔목 몸차 막기,ssangson palmog momcha maggi,twin straight forearm checking block,6
+교차 손칼 몸쳐 막기,gyocha sonkal momchyeo maggi,x knife-hand checking block,9
+눌러 막기,nulleo maggi,pressing block,6
+손바닥 눌러 막기,sonbadag nulleo maggi,palm pressing block,6
+손바닥 올려 막기,sonbadag ollyeo maggi,palm upward block,5
+교차주먹 눌러 막기,gyochajumeog nulleo maggi,x-fist pressing block,5
+밀어 막기,mil-eo maggi,pushing block,4
+손바닥 밀어 막기,sonbadag mil-eo maggi,palm pushing block,4
+손바닥 안으로 밀어 막기,sonbadag an-eulo mil-eo maggi,palm inward pushing block,4
+쌍 손바닥 올려 막기,ssang sonbadag ollyeo maggi,twin palm upward block,9
+몽둥이 막기,mongdung-i maggi,U-shape block,6
+쌍 막기,ssang maggi,W-shape block,7
+바깥팔목 쌍 막기,bakkatpalmog ssang maggi,outer forearm W-shape block,7
+앞 차 올리기,ap cha olligi,front rising kick,0
+앞 차기,ap chagi,front kick,1
+앞 차 부시기,ap cha busugi,front snap kick,2
+돌려 차기,dollyeo chagi,turning kick,2
+옆 차기,yeop chagi,side kick,3
+반대 옆 차기,bandae yeop chagi,reverse side kick,4
+옆차 주기,yeopcha jugi,side piercing kick,8
+뛰며 옆 차기,ttwimyeo yeop chagi,flying side kick,8
+뒤 차기,dwi chagi,back kick,4
+반대 돌려 차기,bandae dollyeo chagi,reverse turning kick,5
+무릎 차기,muleup chagi,knee kick,5
+골초 차기,golcho chagi,hooking kick,8
+반대 돌려 고로 차기,bandae dollyeo golo chagi,reverse hook kick,8
+내려 차기,naelyeo chagi,downward kick,8
+반달 차기,bandal chagi,cresent kick,8
+안으로 반달 차기,an-eulo bandal chagi,inward cresent kick,8
+밖으로 반달 차기,bakk-eulo bandal chagi,outward cresent kick,8
+뛰며 차기,ttwimyeo chagi,flying kick,8
+손칼 때리기,sonkal ttaeligi,knife-hand strike,1
+손칼 안으로 때리기,sonkal an-eulo ttaeligi,knife-hand inward strike,3
+손칼등 때리기,sonkaldeung ttaeligi,reverse knife-hand strike,4
+손칼 내려 때리기,sonkal naelyeo ttaeligi,knife-hand downward strike,8
+손칼등 안으로 때리기,sonkaldeung an-eulo ttaeligi,reverse knife-hand inward strike,9
+등주먹 때리기,deungjumeog ttaeligi,back-fist strike,2
+등주먹 내려 때리기,deungjumeog naelyeo ttaeligi,back-fist downward strike,2
+등주먹 앞 내려 때리기,deungjumeog ap naelyeo ttaeligi,back-fist front downward strike,2
+등주먹 옆 때리기,deungjumeog yeop ttaeligi,back-fist side strike,3
+등주먹 높은데 옆 때리기,deungjumeog nop-eunde yeop ttaeligi,back-fist high side strike,3
+등주먹 뒤차 때리기,deungjumeog dwicha ttaeligi,back-fist rear strike,7
+옆주먹 때리기,yeopjumeog ttaeligi,side-fist strike,6
+팔굽 때리기,palgub ttaeligi,elbow strike,5
+팔굽 앞 때리기,palgub ap ttaeligi,front elbow strike,5
+위 팔굽 때리기,wi palgub taetigi,upper elbow strike,6
+손바닥 때리기,sonbadag ttaeligi,palm strike,6
+반달 손 때리기,bandal son ttaeligi,arc hand strike,6
+손 손끝 틀기,son sonkkeut teulgi,straight finger tip thrust,3
+오픈 손끝 틀기,opeun sonkkeut teulgi,flat fingertip thrust,5
+뒤집은 손끝 틀기,dwijib-eun sonkkeut teulgi,upset fingertip thrust,7
+옆 팔굽 틀기,yeoppalgub teulgi,side-elbow thrust,5
+잡혀술 타,jabhyeosul ta,release move,3
+삼보 맞석이,sambo majseog-i,three step sparring,2
+이보 맞석이,ibo majseog-i,two step sparring,5
+일보 맞석이,ilbo majseog-i,one step sparring,7
+자유 맞석이,jayu majseog-i,free sparring,5
+반 자유 맞석이,ban jayu majseog-i,semi-free sparring,4

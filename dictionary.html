@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAGB Tae Kwon-Do Text-to-Speech</title>
+</head>
+<body>
+    <h1>TAGB Tae Kwon-Do Text-to-Speech</h1>
+
+    <table id="tkd-table" border="1" style="width:100%; margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>Korean</th>
+                <th>Romanization</th>
+                <th>English</th>
+                <th>Level</th>
+                <th>Text-to-Speech</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script type="text/javascript" src="terms.js">
+    </script>
+
+    <script>
+
+        // Function to process CSV and populate the table
+        function processTable(data) {
+            const n_level = data.length;
+            const tableBody = document.querySelector("#".concat("tkd-table tbody"));
+            tableBody.innerHTML = ''; // Clear any previous content
+            for (let i_level=0; i_level < n_level; i_level++) {
+
+                data_i = data[i_level];
+                const rows = data_i.length;
+
+                // Loop through the rows in the CSV
+                for (let step=0; step < rows; step++) {
+
+                    const korean = data_i[step][0];
+                    const romanization = data_i[step][1];
+                    const english = data_i[step][2];
+
+                    const tr = document.createElement("tr");
+
+                    tr.innerHTML = `
+                        <td>${korean}</td>
+                        <td>${romanization}</td>
+                        <td>${english}</td>
+                        <td>${i_level}</td>
+                        <td><button onclick="speakKorean('${korean}')">Speak</button></td>
+                    `;
+                    tableBody.appendChild(tr);
+                };
+            }
+        }
+
+        function speakKorean(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = "ko-KR";
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+
+    <script>
+        processTable(terms);
+    </script>
+</body>
+</html>

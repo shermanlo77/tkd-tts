@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAGB Tae Kwon-Do Text-to-Speech Quiz</title>
+</head>
+<body>
+    <h1>TAGB Tae Kwon-Do Text-to-Speech Quiz</h1>
+    <p><a href="dictionary.html">[Solutions]</a></p>
+
+    <select name="level" id="level" onClick="setTerms()">
+        <option value="0">10th kup</option>
+        <option value="1">9th kup</option>
+        <option value="2">8th kup</option>
+        <option value="3">7th kup</option>
+        <option value="4">6th kup</option>
+        <option value="5">5th kup</option>
+        <option value="6">4th kup</option>
+        <option value="7">3rd kup</option>
+        <option value="8">2nd kup</option>
+        <option value="9" selected="selected">1st kup</option>
+    </select>
+
+    <h3 id="tkd-text"></h3>
+    <table border="0">
+        <thead>
+            <tr>
+                <th id="tts-button"></th>
+                <th><button onclick="showAnswer()">Show</button></th>
+                <th><button onclick="newQuestion()">Next</button></th>
+            </tr>
+        </thead>
+    </table>
+
+    <script type="text/javascript" src="terms.js">
+    </script>
+    <script>
+        let nTerms;
+        let selectedTerms;
+        let nLevel = terms.length;
+        let term_english;
+    </script>
+
+    <script>
+
+        function setTerms() {
+            level = parseInt(document.getElementById("level").value);
+            selectedTerms = []
+            let nTermsAtLevel;
+            for (i_level=0; i_level <= level; i_level++) {
+                nTermsAtLevel = terms[i_level].length;
+                for (i_term=0; i_term < nTermsAtLevel; i_term++) {
+                    selectedTerms.push(terms[i_level][i_term]);
+                }
+            }
+            nTerms = selectedTerms.length;
+            newQuestion();
+        }
+
+        function newQuestion() {
+            let index = Math.floor(Math.random() * nTerms);
+            term_korean = selectedTerms[index][0];
+            term_english = selectedTerms[index][2];
+            document.getElementById("tkd-text").innerHTML = "Translate to English";
+            document.getElementById("tts-button").innerHTML = `<button onclick="speakKorean('${term_korean}')">Speak</button>`
+        }
+
+        function showAnswer() {
+            document.getElementById("tkd-text").innerHTML = term_english;
+        }
+
+        function speakKorean(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = "ko-KR";
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+
+    <script>
+        setTerms();
+    </script>
+</body>
+</html>
